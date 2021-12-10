@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Login</string>
+    <string name="welcome_message">Hello there,\nWelcome back</string>
+    <string name="login_message">You are Logging in a Security</string>
 </resources>
