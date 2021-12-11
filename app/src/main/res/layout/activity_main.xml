@@ -20,15 +20,16 @@
         android:textColor="@color/black"
         android:text="@string/welcome_message"/>
 
-<!--    <TextView-->
-<!--        android:layout_marginTop="140dp"-->
-<!--        android:id="@+id/logging"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:textStyle="bold"-->
-<!--        android:textSize="16sp"-->
-<!--        android:textColor="@color/green"-->
-<!--        android:text="@string/login_message"/>-->
+    <TextView
+        android:paddingStart="30dp"
+        android:layout_marginTop="220dp"
+        android:id="@+id/logging"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/green"
+        android:text="@string/login_message"/>
 
 
 
