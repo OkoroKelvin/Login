@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:textSize="16sp"
-        android:textColor="@color/green"
+        android:textColor="#00ffff"
         android:text="@string/login_message"/>
 
 
@@ -40,7 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/staff_id"
-            android:textColor="@color/green"
+            android:textColor="#00838F"
             android:textSize="15sp"
             android:textStyle="bold"/>
 
@@ -76,24 +76,24 @@
             />
     </com.google.android.material.textfield.TextInputLayout>
 
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="280dp"
+        android:id="@+id/login"
+        android:layout_height="50dp"
+        app:backgroundTint="#0d98ba"
+        android:text="Login"/>
 
-<!--    <Button-->
-<!--        android:layout_marginTop="385dp"-->
-<!--        android:layout_width="280dp"-->
-<!--        android:layout_marginLeft="40dp"-->
-<!--        android:id="@+id/button_send"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Login"/>-->
-
-<!--    <TextView-->
-<!--        android:layout_marginTop="440dp"-->
-<!--        android:paddingStart="215dp"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Forgot Password?"-->
-<!--        android:textColor="@color/green"-->
-<!--        android:textSize="15sp"-->
-<!--        android:textStyle="bold"/>-->
+    <TextView
+        android:layout_marginTop="500dp"
+        android:paddingStart="215dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textColor="#00ffff"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
 
 <!--    <TextView-->
 <!--        android:layout_marginTop="570dp"-->
