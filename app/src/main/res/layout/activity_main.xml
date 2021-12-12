@@ -26,7 +26,6 @@
         android:id="@+id/logging"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
         android:textSize="16sp"
         android:textColor="#00ffff"
         android:text="@string/login_message"/>
@@ -86,7 +85,7 @@
         android:text="Login"/>
 
     <TextView
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="490dp"
         android:paddingStart="215dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -95,35 +94,35 @@
         android:textSize="15sp"
         android:textStyle="bold"/>
 
-<!--    <TextView-->
-<!--        android:layout_marginTop="570dp"-->
-<!--        android:gravity="center"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Not a Staff"-->
-<!--        android:textColor="@color/green"-->
-<!--        android:textSize="15sp"-->
-<!--        android:textStyle="bold"/>-->
+    <TextView
+        android:layout_marginTop="570dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not a Staff"
+        android:textColor="#00ffff"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
 
-<!--    <TextView-->
-<!--        android:layout_marginTop="600dp"-->
-<!--        android:gravity="center"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Don't have an account?"-->
-<!--        android:textColor="@color/black"-->
-<!--        android:textSize="15sp"-->
-<!--        android:textStyle="bold"/>-->
+    <TextView
+        android:layout_marginTop="600dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="10dp"
+        android:text="Don't have an account?" />
 
-<!--    <TextView-->
-<!--        android:layout_marginTop="440dp"-->
-<!--        android:paddingStart="215dp"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Sign up"-->
-<!--        android:textColor="@color/green"-->
-<!--        android:textSize="15sp"-->
-<!--        android:textStyle="bold"/>-->
+    <TextView
+        android:layout_marginTop="600dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Sign Up"
+        android:paddingStart="225dp"
+        android:textColor="#00838F" />
+
+
 
 </RelativeLayout>
 
